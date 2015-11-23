@@ -6,7 +6,19 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<form>
+		<h2>Choose a Number</h2>
+		<input type="number" id="usernumber">
+		<h2>Do you want to</h2>
+		<input type="radio" id="addition" name="group1" value="addition"> Add 
+		<br>
+		<input type="radio" id="multiply" name="group1" value="multiply"> Multiply 
+		<br><br>
+		<button type="button" onclick="getUserNumber()">GO GO GADGET</button>
+	</form>
+
+	<h2 id="result"></h2>
+
 	<script src="js/main.js"></script>
 </body>
 </html>
